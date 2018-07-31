@@ -1,0 +1,41 @@
+compile
+doc
+compile
+clean
+compile
+doc
+reload
+~compile
+doc
+++2.12.6
+compile
+clean
+compile
+doc
+compile
+doc
+compile
+reload
+test
+compile
+clean
+compile
+doc
+project docs
+reload
+show scalaVersion
+clean
+compile
+doc
+reload
+clean
+compile
+doc
+doc/clean
+compile
+doc
+clean
+doc clean
+doc/clean
+doc
+reload

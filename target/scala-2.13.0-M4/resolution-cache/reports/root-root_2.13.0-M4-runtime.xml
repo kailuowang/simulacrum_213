@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="root"
+		module="root_2.13.0-M4"
+		revision="0.1.0-SNAPSHOT"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20180731142632"/>
+	<dependencies>
+		<module organisation="com.github.mpilquist" name="simulacrum_2.13.0-M4">
+			<revision name="0.13.0" status="release" pubdate="20180724133016" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/mpilquist/simulacrum" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Three-clause BSD-style" url="https://github.com/mpilquist/simulacrum/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3164" time="0" location="/Users/kailuowang/.ivy2/cache/com.github.mpilquist/simulacrum_2.13.0-M4/ivy-0.13.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.13.0-M4/0.13.0/simulacrum_2.13.0-M4-0.13.0.pom"/>
+				<caller organisation="root" name="root_2.13.0-M4" conf="compile, runtime" rev="0.13.0" rev-constraint-default="0.13.0" rev-constraint-dynamic="0.13.0" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="simulacrum_2.13.0-M4" type="jar" ext="jar" status="no" details="" size="84527" time="0" location="/Users/kailuowang/.ivy2/cache/com.github.mpilquist/simulacrum_2.13.0-M4/jars/simulacrum_2.13.0-M4-0.13.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.13.0-M4/0.13.0/simulacrum_2.13.0-M4-0.13.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="macro-compat_2.13.0-M4">
+			<revision name="1.1.1" status="release" pubdate="20180526144811" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2983" time="0" location="/Users/kailuowang/.ivy2/cache/org.typelevel/macro-compat_2.13.0-M4/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.13.0-M4/1.1.1/macro-compat_2.13.0-M4-1.1.1.pom"/>
+				<caller organisation="com.github.mpilquist" name="simulacrum_2.13.0-M4" conf="default, compile, runtime, master" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.13.0"/>
+				<artifacts>
+					<artifact name="macro-compat_2.13.0-M4" type="jar" ext="jar" status="no" details="" size="2949" time="0" location="/Users/kailuowang/.ivy2/cache/org.typelevel/macro-compat_2.13.0-M4/jars/macro-compat_2.13.0-M4-1.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.13.0-M4/1.1.1/macro-compat_2.13.0-M4-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.13.0-M4" status="release" pubdate="20180514131933" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.13.0-M4/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2662" time="0" location="/Users/kailuowang/.ivy2/cache/org.scala-lang/scala-library/ivy-2.13.0-M4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0-M4/scala-library-2.13.0-M4.pom"/>
+				<caller organisation="root" name="root_2.13.0-M4" conf="compile, runtime" rev="2.13.0-M4" rev-constraint-default="2.13.0-M4" rev-constraint-dynamic="2.13.0-M4" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="com.github.mpilquist" name="simulacrum_2.13.0-M4" conf="default, compile, runtime, master" rev="2.13.0-M4" rev-constraint-default="2.13.0-M4" rev-constraint-dynamic="2.13.0-M4" callerrev="0.13.0"/>
+				<caller organisation="org.typelevel" name="macro-compat_2.13.0-M4" conf="compile, runtime" rev="2.13.0-M4" rev-constraint-default="2.13.0-M4" rev-constraint-dynamic="2.13.0-M4" callerrev="1.1.1"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="3966467" time="0" location="/Users/kailuowang/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.0-M4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0-M4/scala-library-2.13.0-M4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

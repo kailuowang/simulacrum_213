@@ -1,0 +1,18 @@
+compile
+reload
+compile
+reload
+show scalaVersion
+compile
+reload
+compile
+ reload
+compile
+reload
+clean 
+project macros
+clean
+compile
+clean
+compile
+doc

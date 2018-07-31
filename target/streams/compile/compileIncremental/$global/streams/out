@@ -1,0 +1,29 @@
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(/Users/kailuowang/projects/macro/target/scala-2.13.0-M4/classes/example/TC$nonInheritedOps$.class, /Users/kailuowang/projects/macro/target/scala-2.13.0-M4/classes/example/TC.class, /Users/kailuowang/projects/macro/target/scala-2.13.0-M4/classes/example/TC$Ops.class, /Users/kailuowang/projects/macro/target/scala-2.13.0-M4/classes/example/Test.class, /Users/kailuowang/projects/macro/target/scala-2.13.0-M4/classes/example/TC$ops$$anon$1.class, /Users/kailuowang/projects/macro/target/scala-2.13.0-M4/classes/example/TC$ToTCOps.class, /Users/kailuowang/projects/macro/target/scala-2.13.0-M4/classes/example/TC$.class, /Users/kailuowang/projects/macro/target/scala-2.13.0-M4/classes/example/TC$AllOps.class, /Users/kailuowang/projects/macro/target/scala-2.13.0-M4/classes/example/TC$ToTCOps$$anon$2.class, /Users/kailuowang/projects/macro/target/scala-2.13.0-M4/classes/example/Test$.class, /Users/kailuowang/projects/macro/target/scala-2.13.0-M4/classes/example/TC$ops$.class)[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set(/Users/kailuowang/projects/macro/src/main/scala/example/Test.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /Users/kailuowang/projects/macro/target/scala-2.13.0-M4/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13.0-M2:1.1.1:compile for Scala 2.13.0-M4[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13.0-M2:1.1.1:compile for Scala 2.13.0-M4[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 6610817d for Scala compiler version 2.13.0-M4[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ymacro-annotations[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-language:experimental.macros[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/classes:/Users/kailuowang/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.0-M4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/kailuowang/projects/macro/target/scala-2.13.0-M4/classes:/Users/kailuowang/.ivy2/cache/com.github.mpilquist/simulacrum_2.13.0-M4/jars/simulacrum_2.13.0-M4-0.13.0.jar:/Users/kailuowang/.ivy2/cache/org.typelevel/macro-compat_2.13.0-M4/jars/macro-compat_2.13.0-M4-1.1.1.jar:/Users/kailuowang/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.13.0-M4.jar:/Users/kailuowang/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.13.0-M4.jar:/Users/kailuowang/.ivy2/cache/jline/jline/jars/jline-2.14.6.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.229715107 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m

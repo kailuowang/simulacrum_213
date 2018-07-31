@@ -1,0 +1,17 @@
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/kailuowang/projects/macro/target/scala-2.13.0-M4/api...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13.0-M2:1.1.1:compile for Scala 2.13.0-M4[0m
+[0m[[0m[0mdebug[0m] [0m[0mCalling Scaladoc with arguments:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ymacro-annotations[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-language:experimental.macros[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-d[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/kailuowang/projects/macro/target/scala-2.13.0-M4/api[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/classes:/Users/kailuowang/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.0-M4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/kailuowang/.ivy2/cache/com.github.mpilquist/simulacrum_2.13.0-M4/jars/simulacrum_2.13.0-M4-0.13.0.jar:/Users/kailuowang/.ivy2/cache/org.typelevel/macro-compat_2.13.0-M4/jars/macro-compat_2.13.0-M4-1.1.1.jar:/Users/kailuowang/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.13.0-M4.jar:/Users/kailuowang/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.13.0-M4.jar:/Users/kailuowang/.ivy2/cache/jline/jline/jars/jline-2.14.6.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/kailuowang/projects/macro/src/main/scala/example/Test.scala[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kailuowang/projects/macro/src/main/scala/example/Test.scala:14:13: object TC does not take type parameters.[0m
+[0m[[0m[31merror[0m] [0m[0m  val c = TC[String] //fails on `sbt doc`[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[0minfo[0m] [0m[0mNo documentation generated with unsuccessful compiler run[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
